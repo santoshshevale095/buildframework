@@ -36,6 +36,7 @@ public abstract class BaseTest {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options =new ChromeOptions();
             options.addArguments("--disable-gpu");
+            options.addArguments("--headless=new");
             options.addArguments("--window-size=1920,1080");
             driver = new ChromeDriver(options);
 
