@@ -1,0 +1,27 @@
+
+[
+  {
+
+  "email": "ganpat@gmail.com",
+    "password": "Pass1234",
+    "cardName":"ganpat Shevale",
+    "cardNumber":"4111111111111111",
+    "cvc":"123",
+    "month":"12",
+    "year":"2028"
+
+ },
+
+  {
+
+    "email": "ganpat@gmail.com",
+    "password": "Pass12342",
+    "cardName":"ganpat Shevale",
+    "cardNumber":"4111111111111111",
+    "cvc":"123",
+    "month":"12",
+    "year":"2028"
+
+  }
+
+]
