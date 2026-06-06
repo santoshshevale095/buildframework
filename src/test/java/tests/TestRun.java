@@ -44,6 +44,7 @@ public class TestRun extends BaseTest {
 
 
 
+        System.out.println("Checking : Blue Top - Jenkins Poll SCM Test verify push");
         log.LoginFlow(
                 data.get("email"),
                 data.get("password")
