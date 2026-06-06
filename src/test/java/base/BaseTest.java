@@ -72,9 +72,10 @@ public abstract class BaseTest {
 
     @Parameters("browser")
     @BeforeMethod
-    public void launch(@Optional("chrome") String browser)
+    public void launch()
             throws IOException {
 
+        String browser = System.getProperty("browser", "chrome");
         System.out.println("Browser = " + browser);
         
         driver = browserlaunch(browser);
