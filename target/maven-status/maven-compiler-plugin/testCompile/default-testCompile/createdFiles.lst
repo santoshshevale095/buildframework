@@ -1,4 +1,5 @@
 tests\TestRun.class
+RestAsured\GetReq.class
 pageObjects\productCart.class
 pageObjects\payments.class
 utils\JsonDataReader$1.class
